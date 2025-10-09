@@ -1,0 +1,4 @@
+WANDB_MODE=offline accelerate launch --num_machines=1 --num_processes=1 --machine_rank=0 --main_process_ip=127.0.0.1 --main_process_port=9997 --same_network \
+    scripts/evaluation.py config=configs/training/InternVL3_1B_DCAE/internvl3_1B_stage2_test_256.yaml \
+    checkpoint_path="1b_unilip.pth" \
+    experiment.project="1B_stage2" experiment.name="1B_stage2" experiment.output_dir="1B_stage2" training.per_gpu_batch_size=16

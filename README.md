@@ -4,7 +4,7 @@
 [![hf_paper](https://img.shields.io/badge/🤗-Paper%20In%20HF-red.svg)](https://huggingface.co/papers/2507.23278)
 [![arXiv](https://img.shields.io/badge/Arxiv-2503.01342-b31b1b.svg?logo=arXiv)](https://www.arxiv.org/abs/2507.23278)
 [![License](https://img.shields.io/badge/License-Apache%202.0-yellow)](https://github.com/nnnth/UniLIP/blob/main/LICENSE) 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fnnnth%2FUniLIP%2Ftree%2Fmain&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+![Hits](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fnnnth%2FUniLIP&label=&icon=github&color=%23198754&message=&style=flat&tz=UTC)
 [![GitHub issues](https://img.shields.io/github/issues/nnnth/UniLIP?color=critical&label=Issues)](https://github.com/nnnth/UniLIP/issues)
 [![GitHub closed issues](https://img.shields.io/github/issues-closed/nnnth/UniLIP?color=success&label=Issues)](https://github.com/nnnth/UniLIP/issues?q=is%3Aissue%20state%3Aclosed)  <br>
 </h5>
@@ -20,7 +20,7 @@ This repo is the official implementation of paper: [UniLiP: Adapting CLIP for Un
 > - Primary contact: Hao Tang ( tanghao@stu.pku.edu.cn )
 
 ## 📣 News
-- [25-10-5] 🚀 All [checkpoints](), training and inference Code is released.
+- [25-10-9] 🚀 All [checkpoints](https://huggingface.co/kanashi6/UniLIP-3B), training and inference Code is released.
 - [25-7-31] 👀 UniLIP is released on [arXiv](https://www.arxiv.org/abs/2507.23278).
 
 ## Overview
@@ -36,7 +36,7 @@ This repo is the official implementation of paper: [UniLiP: Adapting CLIP for Un
 Previous CLIP-based unified methods fail to balance understanding and reconstruction, leading to semantic degradation or inconsistent reconstructions. To overcome this, we propose UniLIP:
 - **Two-Stage Self-Distillation**: A novel training scheme that teaches CLIP high-fidelity reconstruction without degrading its powerful comprehension abilities.
 - **Dual-Condition Architecture**: Enhances reasoning and edit consistency by combining rich multimodal context with learnable queries that harness the power of MLLMs.
-- **State-of-the-Art Performance**: Achieves top results on GenEval (0.90), WISE (0.63), and ImgEdit (3.94) with efficient 1B/3B models, demonstrating superior instruction following and edit fidelity.
+- **State-of-the-Art Performance**: Achieves top results on GenEval (0.88/0.90), WISE (0.56/0.63), and ImgEdit (3.81/3.94) with efficient 1B/3B models, demonstrating superior instruction following and edit fidelity.
 
 ## 🚀 Main Results
 
@@ -130,7 +130,6 @@ Please consider citing our work as follows if it is helpful.
 ```
 
 ## ✨ Star History
-[![Star History Chart](https://api.star-history.com/svg?repos=nnnth/UniLIP&type=Date)](https://star-history.com/#nnnth/UniLIP&Date)
-
+[![Star History Chart](https://api.star-history.com/svg?repos=nnnth/UniLIP&type=Date)](https://www.star-history.com/#nnnth/UniLIP&Date)
 
 

@@ -4,7 +4,7 @@
 [![hf_paper](https://img.shields.io/badge/🤗-Paper%20In%20HF-red.svg)](https://huggingface.co/papers/2507.23278)
 [![arXiv](https://img.shields.io/badge/Arxiv-2503.01342-b31b1b.svg?logo=arXiv)](https://www.arxiv.org/abs/2507.23278)
 [![License](https://img.shields.io/badge/License-Apache%202.0-yellow)](https://github.com/nnnth/UniLIP/blob/main/LICENSE) 
-![Hits](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fnnnth%2FUniLIP&label=&icon=github&color=%23198754&message=&style=flat&tz=UTC)
+[![Hits](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fnnnth%2FUniLIP&label=&icon=github&color=%23198754&message=&style=flat&tz=UTC)]()
 [![GitHub issues](https://img.shields.io/github/issues/nnnth/UniLIP?color=critical&label=Issues)](https://github.com/nnnth/UniLIP/issues)
 [![GitHub closed issues](https://img.shields.io/github/issues-closed/nnnth/UniLIP?color=success&label=Issues)](https://github.com/nnnth/UniLIP/issues?q=is%3Aissue%20state%3Aclosed)  <br>
 </h5>

@@ -126,8 +126,8 @@ def parse_args():
 def main(opt):
     model_name = opt.model
 
-    outdir = f"{model_name}/imgedit_{opt.prompt_template}_10.3_debug"
-    visdir = f"{model_name}/imgedit_vis_{opt.prompt_template}_10.3_debug"
+    outdir = f"{model_name}/imgedit_{opt.prompt_template}"
+    visdir = f"{model_name}/imgedit_vis_{opt.prompt_template}"
     os.makedirs(outdir, exist_ok=True)
     os.makedirs(visdir, exist_ok=True)
     prompt_template = opt.prompt_template

@@ -125,7 +125,7 @@ def parse_args():
 def main(opt):
     model_name = opt.model
 
-    outdir = f"{model_name}/geneval_{opt.prompt_template}_10.3_debug"
+    outdir = f"{model_name}/geneval_{opt.prompt_template}"
     os.makedirs(outdir, exist_ok=True)
     prompt_template = opt.prompt_template
     disable_torch_init()

@@ -42,7 +42,9 @@ bash 1b_test.sh
 ```
 
 #### Understanding Benchmarks
-We use VLMEvalKit for evaluation. Taking MMVP as an example, you need to set `ckpt_path` in VLMEvalkit/mmvp.sh to trained UniLIP weights, and then execute the `mmvp.sh` script. For instructions on testing other benchmarks, please refer [here](https://github.com/open-compass/VLMEvalKit/blob/main/docs/en/Quickstart.md).
+We use VLMEvalKit for evaluation. First download [VLMEvalKit](https://github.com/open-compass/VLMEvalKit), then replace the `vlmeval/inference.py` with our provided `tokenizer/inference.py`. We replace InternViT with our trained UniLIP in `inference.py`.
+
+Taking MMVP as an example, you need to set `ckpt_path` in VLMEvalkit/mmvp.sh to trained UniLIP weights, and then execute the `mmvp.sh` script. For instructions on testing other benchmarks, please refer [here](https://github.com/open-compass/VLMEvalKit/blob/main/docs/en/Quickstart.md).
 
 
 ### Reconstruction Demo

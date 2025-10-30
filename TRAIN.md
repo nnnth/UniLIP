@@ -13,6 +13,7 @@ We use [BLIP3o-60K](https://huggingface.co/datasets/BLIP3o/BLIP3o-60k) and [Shar
 
 ```
 cd data
+bash untar_sharegpt.sh
 bash prepare_gen_sft.sh
 python convert_janus4o_ti2i.py
 ```

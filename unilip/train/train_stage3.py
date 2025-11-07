@@ -983,7 +983,7 @@ def train(attn_implementation=None):
                 output.requires_grad_(True)
 
             model.get_input_embeddings().register_forward_hook(make_inputs_require_grad)
-    tokenizer = AutoProcessor.from_pretrained(model_args.model_name_or_path).tokenizer
+    tokenizer = AutoProcessor.from_pretrained(model_args.mllm_hf_path).tokenizer
     tokenizer.model_max_length = training_args.model_max_length
     if tokenizer.pad_token is None:
         smart_tokenizer_and_embedding_resize(

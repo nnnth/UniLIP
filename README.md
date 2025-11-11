@@ -109,9 +109,11 @@ python scipts/inference_edit.py ./UniLIP-3B
 ```
 
 ### Scripts
-For Training and evaluation commands, please refer [TRAIN.md](https://github.com/nnnth/UniLIP/blob/main/TRAIN.md) and [EVAL.md](https://github.com/nnnth/UniLIP/blob/main/EVAL.md)
+For Training and evaluation commands for generation and editing , please refer [TRAIN.md](https://github.com/nnnth/UniLIP/blob/main/TRAIN.md) and [EVAL.md](https://github.com/nnnth/UniLIP/blob/main/EVAL.md)
 
 For training, evaluation and inference scripts for reconstruction, please refer [here](https://github.com/nnnth/UniLIP/blob/main/tokenizer/README_RECON.md).
+
+UniLIP does not require training for understanding, the evaluation script for understanding is [here](https://github.com/nnnth/UniLIP/blob/main/tokenizer/README_RECON.md#understanding-benchmarks).
 
 ## 👍 Acknowledgement
 * [TiTok](https://github.com/bytedance/1d-tokenizer) We implement reconstruction training following TiTok.

@@ -4,7 +4,7 @@ For generation, we use BLIP3-o Pretrain: [BLIP3o-Pretrain-Long-Caption](https://
 
 ```
 cd data
-python convert_gptedit.py
+python convert_gpt_edit.py
 ```
 
 

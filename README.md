@@ -20,6 +20,7 @@ This repo is the official implementation of paper: [UniLiP: Adapting CLIP for Un
 > - Primary contact: Hao Tang ( tanghao@stu.pku.edu.cn )
 
 ## 📣 News
+- [26-1-26] 🎉 UniLIP is accepted by ICLR 2026!
 - [25-10-9] 🚀 All [checkpoints](https://huggingface.co/kanashi6/UniLIP-3B), training and inference Code is released.
 - [25-7-31] 👀 UniLIP is released on [arXiv](https://www.arxiv.org/abs/2507.23278).
 
